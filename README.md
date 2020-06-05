@@ -1,0 +1,1 @@
+BuckleScript bindings for [`mime-types`](https://github.com/jshttp/mime-types). Has [the same API](https://github.com/elcr/mime-types-bs/blob/master/src/MimeTypes.rei) as the original, except functions which return `string | false` in JavaScript return `option(string)` instead.
